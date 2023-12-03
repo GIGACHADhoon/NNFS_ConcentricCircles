@@ -19,7 +19,7 @@ The main goal of this project is to train a neural network to classify data poin
 - **`GenerateCCData.py`:** Python Class used for generating synthetic data of concentric circles.
 - **`NNFS.py`:** Implementation of the Deep Learning Neural Network Model using Numpy.
 - **`PreProcessingToolKit.py`:** Data PreProcessing Class.
-- - **`LayeredCircleDeepLearning.ipynb`:** Jupyter Notebook Brings everything Together.
+- **`LayeredCircleDeepLearning.ipynb`:** Jupyter Notebook Brings everything Together.
 
 ## Getting Started
 

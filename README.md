@@ -16,35 +16,26 @@ The main goal of this project is to train a neural network to classify data poin
 
 ## Project Structure
 
-- **`data_generation.py`:** Python script for generating synthetic data of concentric circles.
-- **`neural_network.py`:** Implementation of the Deep Learning Neural Network Model using Numpy.
-- **`visualization.py`:** Script for visualizing the generated data and model results.
-- **`main.py`:** Main script to run the entire project.
+- **`GenerateCCData.py`:** Python Class used for generating synthetic data of concentric circles.
+- **`NNFS.py`:** Implementation of the Deep Learning Neural Network Model using Numpy.
+- **`PreProcessingToolKit.py`:** Data PreProcessing Class.
+- - **`LayeredCircleDeepLearning.ipynb`:** Jupyter Notebook Brings everything Together.
 
 ## Getting Started
 
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/circle-classification.git
-    cd circle-classification
+    git clone https://github.com/yourGIGACHADhoon/NNFS_ConcentricCircles.git
+    cd NNFS_ConcentricCircles
     ```
 
 2. **Install Dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    pip install numpy
+    pip install matplotlib
     ```
-
-3. **Run the Project:**
-
-    ```bash
-    python main.py
-    ```
-
-## Results
-
-The model's performance, along with visualizations of the generated data and predictions, can be found in the `results/` directory.
 
 ## Acknowledgments
 
